@@ -28,7 +28,7 @@
             android:src="@drawable/ima" />
 
         <EditText
-            android:id="@+id/edt_RCorreo"
+            android:id="@+id/edt_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -47,7 +47,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edt_RContraseña"
+            android:id="@+id/edt_contraseña"
             android:hint="Contraseña"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
@@ -62,7 +62,7 @@
             android:inputType="textPassword"/>
 
         <TextView
-            android:id="@+id/txt_Rcontraseña"
+            android:id="@+id/txt_contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -72,14 +72,38 @@
             android:text="¿Olvidaste tu contraseña?"
             android:textColor="#fff" />
         <Button
-            android:id="@+id/btn_Rcontraseña"
+            android:id="@+id/btn_iniciarSesion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/btn_fondo_color"
             android:text="Inciar sesión"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:elevation="5dp"/>
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:text="Facebook"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:elevation="5dp"/>
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:text="GOOGLE"
             android:textColor="#fff"
             android:textSize="16sp"
             android:elevation="5dp"/>
