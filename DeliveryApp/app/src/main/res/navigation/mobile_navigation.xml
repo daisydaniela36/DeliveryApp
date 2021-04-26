@@ -7,20 +7,56 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.deliveryapp.ui.home.HomeFragment"
+        android:name="com.example.deliveryapp.fragment.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_agregar"
-        android:name="com.example.deliveryapp.ui.category.CategoryFragment"
+        android:id="@+id/nav_category"
+        android:name="com.example.deliveryapp.fragment.CategoryFragment"
         android:label="@string/menu_category"
         tools:layout="@layout/fragment_category" />
 
     <fragment
-        android:id="@+id/nav_listar"
-        android:name="com.example.deliveryapp.ui.myOrders.MyOrdersFragment"
+        android:id="@+id/nav_myorders"
+        android:name="com.example.deliveryapp.fragment.MyOrdersFragment"
         android:label="@string/menu_myorders"
         tools:layout="@layout/fragment_myorders" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.deliveryapp.fragment.OffersFragment"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.deliveryapp.fragment.NotificationsFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.deliveryapp.fragment.ContactUsFragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.deliveryapp.fragment.FeedbackFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+    <fragment
+        android:id="@+id/nav_terms"
+        android:name="com.example.deliveryapp.fragment.TermsFragment"
+        android:label="@string/menu_terms"
+        tools:layout="@layout/fragment_terms" />
+
+    <fragment
+        android:id="@+id/nav_privacy_policy"
+        android:name="com.example.deliveryapp.fragment.PrivacyPolicyFragment"
+        android:label="@string/menu_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
 
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.deliveryapp.ui.category;
+package com.example.deliveryapp.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
